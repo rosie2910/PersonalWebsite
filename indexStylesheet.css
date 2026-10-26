@@ -1,0 +1,94 @@
+html {
+    min-height: 100%;
+    background: linear-gradient(
+        135deg,
+        #CCEEFF 0%,
+        #FFC1D6 50%,
+        #FFF4B8 100%
+    );
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: transparent;
+}
+
+div {margin-bottom: 1.5%; 
+     padding: 15px; 
+     text-align: center; 
+     font-family: "Courier New", monospace; 
+     align-items: center;}
+
+nav {margin-bottom: 0.5%; 
+     padding: 1px; 
+     border: 1px solid plum; 
+     background-color: lightcyan;
+     text-align: center; 
+     font-family: "Courier New", monospace;}
+     
+.main {width:90%;
+margin: 0 auto;
+padding: 15px;
+border: 1px solid plum;
+background-color: white;
+text-align: center;
+box-sizing: border-box;}     
+
+.homeImage {width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1.5%;
+    padding: 15px;
+    background-color: white;
+    text-align: center;}
+
+.headerTitle {width: 90%;
+    box-sizing: border-box;
+    margin-bottom: 1.5%;
+    padding: 15px;
+    border: transparent;
+    background: transparent;
+    text-align: left;}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+
+.interests{
+    background-color: lightcyan;
+    
+}
+.memoPad {
+    position: relative;
+    width: 200px;
+    height: 300px;
+
+    background-image: url("https://i.pinimg.com/736x/ea/ab/ac/eaabac91e49f9fa8bce088da0f5a73cd.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    margin: 30px auto;
+}
+
+.memoText {
+    position: absolute;
+
+    /* Position the writing over the paper */
+    top: 20%;
+    left: 11%;
+    width: 74%;
+    height: 45%;
+
+    /* Make only the writing scroll */
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    color: plum;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 13px;
+    line-height: 1.8;
+
+    overflow-wrap: break-word;
+}
